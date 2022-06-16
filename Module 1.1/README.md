@@ -40,4 +40,15 @@ git pull
 
 git push
 
+*** Merge Changes 
+
+git checkout main
+git merge Branch
+
+*** Rebase Changes 
+
+git rebase <branch name>  
+git status  
+git rebase --continue  
+git rebase --skip  
 
